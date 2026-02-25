@@ -34,6 +34,9 @@ import (
 	"vitess.io/vitess/go/vt/utils"
 )
 
+// DefaultVtorcsByCell is the default number of VTOrc instances to start per cell.
+const DefaultVtorcsByCell = 1
+
 // VTOrcProcess is a test struct for running
 // vtorc as a separate process for testing
 type VTOrcProcess struct {
