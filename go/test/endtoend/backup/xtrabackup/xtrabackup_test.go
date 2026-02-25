@@ -59,7 +59,6 @@ func TestXtrabackupWithExternalZstdCompressionAndManifestedDecompressor(t *testi
 		CompressorEngineName:            "external",
 		ExternalCompressorCmd:           "zstd",
 		ExternalCompressorExt:           ".zst",
-		ExternalDecompressorUseManifest: true,
 		ManifestExternalDecompressorCmd: "zstd -d",
 	}
 

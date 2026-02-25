@@ -60,7 +60,6 @@ func TestBuiltinBackupWithExternalZstdCompressionAndManifestedDecompressor(t *te
 		CompressorEngineName:            "external",
 		ExternalCompressorCmd:           "zstd",
 		ExternalCompressorExt:           ".zst",
-		ExternalDecompressorUseManifest: true,
 		ManifestExternalDecompressorCmd: "zstd -d",
 	}
 
